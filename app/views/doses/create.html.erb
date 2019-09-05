@@ -1,2 +1,6 @@
 <h1>Doses#create</h1>
 <p>Find me in app/views/doses/create.html.erb</p>
+<h1>This is the doses of my cocktails </h1>
+<h2><% @doses.each do |dose| %></h2>
+<p><%= dose[:description] %></p>
+<% end %>
